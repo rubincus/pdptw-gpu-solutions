@@ -1,0 +1,19 @@
+Instance name:	ber-n100-6
+Authors:	GPU LNS
+Date:	2026-10-31
+Reference:	pdptw-gpu GPU LNS v0
+Solution
+Route 1 : 26 28 24 76 21 71 74 78
+Route 2 : 38 88 27 34 48 77 84 98
+Route 3 : 33 3 9 7 59 53 57 83
+Route 4 : 50 40 100 10 90 60
+Route 5 : 14 42 92 22 32 72 82 64
+Route 6 : 36 86 46 96 17 45 67 95
+Route 7 : 47 23 97 1 51 73 13 30 63 80
+Route 8 : 12 19 69 16 66 62 25 75
+Route 9 : 6 43 56 31 20 81 70 93
+Route 10 : 15 29 65 79 44 94
+Route 11 : 4 35 54 18 85 68
+Route 12 : 11 41 8 61 91 58
+Route 13 : 49 5 55 99 39 89
+Route 14 : 2 52 37 87

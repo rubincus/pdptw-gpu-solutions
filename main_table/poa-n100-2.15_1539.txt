@@ -1,0 +1,20 @@
+Instance name:	poa-n100-2
+Authors:	GPU LNS
+Date:	2026-10-31
+Reference:	pdptw-gpu GPU LNS v0
+Solution
+Route 1 : 36 8 58 86 4 54
+Route 2 : 10 60 3 29 19 53 69 79
+Route 3 : 11 9 61 18 59 68 12 62
+Route 4 : 38 40 88 1 90 51
+Route 5 : 33 25 20 83 70 75 5 55
+Route 6 : 6 21 24 56 71 74
+Route 7 : 17 26 67 15 76 65
+Route 8 : 14 64 2 27 52 42 92 77
+Route 9 : 13 45 95 44 63 16 94 66
+Route 10 : 49 99 46 96 35 85
+Route 11 : 7 41 57 39 91 89
+Route 12 : 22 48 72 43 98 93
+Route 13 : 47 28 23 73 34 84 78 97
+Route 14 : 32 37 82 87
+Route 15 : 30 31 80 50 81 100
