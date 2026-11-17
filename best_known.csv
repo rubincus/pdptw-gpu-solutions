@@ -1,39 +1,39 @@
-instance,vehicles,travel_time,previous_bks_vehicles,previous_bks_travel_time,file,official_validator
-bar-n200-4,12,850,13,831,best_known/bar-n200-4.12_850.txt,valid
-bar-n200-5,4,877,5,842,best_known/bar-n200-5.4_877.txt,valid
-nyc-n200-2,8,1097,8,1101,best_known/nyc-n200-2.8_1097.txt,valid
-poa-n200-5,15,2311,15,2313,best_known/poa-n200-5.15_2311.txt,valid
-bar-n400-1,31,3048,31,3081,best_known/bar-n400-1.31_3048.txt,valid
-ber-n400-4,18,2193,18,2207,best_known/ber-n400-4.18_2193.txt,valid
-poa-n400-1,23,4501,23,4542,best_known/poa-n400-1.23_4501.txt,valid
-poa-n400-3,39,2798,39,2800,best_known/poa-n400-3.39_2798.txt,valid
-bar-n600-4,51,2815,52,2767,best_known/bar-n600-4.51_2815.txt,valid
-bar-n600-7,30,4844,30,4848,best_known/bar-n600-7.30_4844.txt,valid
-ber-n600-3,28,3877,28,3885,best_known/ber-n600-3.28_3877.txt,valid
-ber-n600-6,36,10118,36,10218,best_known/ber-n600-6.36_10118.txt,valid
-poa-n600-1,53,6128,53,6130,best_known/poa-n600-1.53_6128.txt,valid
-poa-n600-3,22,2204,23,2145,best_known/poa-n600-3.22_2204.txt,valid
-bar-n800-4,23,2834,24,2671,best_known/bar-n800-4.23_2834.txt,valid
-bar-n800-5,78,6105,79,5977,best_known/bar-n800-5.78_6105.txt,valid
-bar-n800-6,79,6368,80,6259,best_known/bar-n800-6.79_6368.txt,valid
-ber-n800-1,57,5242,58,5230,best_known/ber-n800-1.57_5242.txt,valid
-poa-n800-5,69,4197,70,4271,best_known/poa-n800-5.69_4197.txt,valid
-bar-n1000-3,86,4783,87,4743,best_known/bar-n1000-3.86_4783.txt,valid
-bar-n1000-6,26,6700,26,6776,best_known/bar-n1000-6.26_6700.txt,valid
-nyc-n1000-1,27,3906,27,3936,best_known/nyc-n1000-1.27_3906.txt,valid
-poa-n1000-2,45,10315,45,10370,best_known/poa-n1000-2.45_10315.txt,valid
-poa-n1000-3,66,5515,67,5412,best_known/poa-n1000-3.66_5515.txt,valid
-poa-n1000-7,71,11113,71,11185,best_known/poa-n1000-7.71_11113.txt,valid
-bar-n1500-3,89,5912,91,5765,best_known/bar-n1500-3.89_5912.txt,valid
-nyc-n1500-5,21,5717,21,5727,best_known/nyc-n1500-5.21_5717.txt,valid
-bar-n2000-6,169,9438,171,9124,best_known/bar-n2000-6.169_9438.txt,valid
-poa-n2000-2,155,16076,156,16039,best_known/poa-n2000-2.155_16076.txt,valid
-poa-n2000-3,124,9205,125,9074,best_known/poa-n2000-3.124_9205.txt,valid
-poa-n2000-4,138,12460,139,12181,best_known/poa-n2000-4.138_12460.txt,valid
-ber-n2500-3,240,17896,241,17756,best_known/ber-n2500-3.240_17896.txt,valid
-ber-n2500-4,174,15590,175,15491,best_known/ber-n2500-4.174_15590.txt,valid
-ber-n2500-5,253,20911,255,20621,best_known/ber-n2500-5.253_20911.txt,valid
-poa-n3000-3,283,19222,284,19091,best_known/poa-n3000-3.283_19222.txt,valid
-bar-n4000-2,90,21984,90,22162,best_known/bar-n4000-2.90_21984.txt,valid
-poa-n4000-3,177,22834,178,22122,best_known/poa-n4000-3.177_22834.txt,valid
-ber-n5000-5,452,29073,455,28542,best_known/ber-n5000-5.452_29073.txt,valid
+instance,vehicles,travel_time,how,source,previous_bks_vehicles,previous_bks_travel_time,file,official_validator
+bar-n200-4,12,850,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",13,831,best_known/bar-n200-4.12_850.txt,valid
+bar-n200-5,4,877,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",5,842,best_known/bar-n200-5.4_877.txt,valid
+nyc-n200-2,8,1097,S,"an earlier configuration of the GPU method, from scratch within the standard time limit",8,1101,best_known/nyc-n200-2.8_1097.txt,valid
+poa-n200-5,15,2311,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",15,2313,best_known/poa-n200-5.15_2311.txt,valid
+bar-n400-1,31,3048,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",31,3081,best_known/bar-n400-1.31_3048.txt,valid
+ber-n400-4,18,2193,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",18,2207,best_known/ber-n400-4.18_2193.txt,valid
+poa-n400-1,23,4501,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",23,4542,best_known/poa-n400-1.23_4501.txt,valid
+poa-n400-3,39,2798,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",39,2800,best_known/poa-n400-3.39_2798.txt,valid
+bar-n600-4,51,2815,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",52,2767,best_known/bar-n600-4.51_2815.txt,valid
+bar-n600-7,30,4844,B,moves of zero-load blocks applied to the previous best-known solution,30,4848,best_known/bar-n600-7.30_4844.txt,valid
+ber-n600-3,28,3877,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",28,3885,best_known/ber-n600-3.28_3877.txt,valid
+ber-n600-6,36,10118,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",36,10218,best_known/ber-n600-6.36_10118.txt,valid
+poa-n600-1,53,6128,C,"the CPU version with 27 processes, seed 1, from scratch within the standard time limit (i7-14700F)",53,6130,best_known/poa-n600-1.53_6128.txt,valid
+poa-n600-3,22,2204,S,"seed 2 of the GPU method, from scratch within the standard time limit (RTX 5070 Ti)",23,2145,best_known/poa-n600-3.22_2204.txt,valid
+bar-n800-4,23,2834,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",24,2671,best_known/bar-n800-4.23_2834.txt,valid
+bar-n800-5,78,6105,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",79,5977,best_known/bar-n800-5.78_6105.txt,valid
+bar-n800-6,79,6368,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",80,6259,best_known/bar-n800-6.79_6368.txt,valid
+ber-n800-1,57,5242,C,"the CPU version with 27 processes, seed 1, from scratch within the standard time limit (i7-14700F)",58,5230,best_known/ber-n800-1.57_5242.txt,valid
+poa-n800-5,69,4197,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",70,4271,best_known/poa-n800-5.69_4197.txt,valid
+bar-n1000-3,86,4783,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",87,4743,best_known/bar-n1000-3.86_4783.txt,valid
+bar-n1000-6,26,6700,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",26,6776,best_known/bar-n1000-6.26_6700.txt,valid
+nyc-n1000-1,27,3906,C,"the CPU version with 27 processes, seed 1, from scratch within the standard time limit (i7-14700F)",27,3936,best_known/nyc-n1000-1.27_3906.txt,valid
+poa-n1000-2,45,10315,L,a longer run: fixed-fleet tabu search and decomposition on the CPU,45,10370,best_known/poa-n1000-2.45_10315.txt,valid
+poa-n1000-3,66,5515,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",67,5412,best_known/poa-n1000-3.66_5515.txt,valid
+poa-n1000-7,71,11113,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",71,11185,best_known/poa-n1000-7.71_11113.txt,valid
+bar-n1500-3,89,5912,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",91,5765,best_known/bar-n1500-3.89_5912.txt,valid
+nyc-n1500-5,21,5717,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",21,5727,best_known/nyc-n1500-5.21_5717.txt,valid
+bar-n2000-6,169,9438,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",171,9124,best_known/bar-n2000-6.169_9438.txt,valid
+poa-n2000-2,155,16076,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",156,16039,best_known/poa-n2000-2.155_16076.txt,valid
+poa-n2000-3,124,9205,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",125,9074,best_known/poa-n2000-3.124_9205.txt,valid
+poa-n2000-4,138,12460,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",139,12181,best_known/poa-n2000-4.138_12460.txt,valid
+ber-n2500-3,240,17896,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",241,17756,best_known/ber-n2500-3.240_17896.txt,valid
+ber-n2500-4,174,15590,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",175,15491,best_known/ber-n2500-4.174_15590.txt,valid
+ber-n2500-5,253,20911,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",255,20621,best_known/ber-n2500-5.253_20911.txt,valid
+poa-n3000-3,283,19222,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",284,19091,best_known/poa-n3000-3.283_19222.txt,valid
+bar-n4000-2,90,21984,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",90,22162,best_known/bar-n4000-2.90_21984.txt,valid
+poa-n4000-3,177,22834,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",178,22122,best_known/poa-n4000-3.177_22834.txt,valid
+ber-n5000-5,452,29073,R,"the run of the main table (seed 1, standard time limit, RTX 5070 Ti)",455,28542,best_known/ber-n5000-5.452_29073.txt,valid

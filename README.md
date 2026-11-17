@@ -13,14 +13,17 @@ The objective is hierarchical: first the number of vehicles, then the total trav
   Hiermann and Schiffer (2026): 5 minutes for 100 locations, 15 for 200 and 400, 30 for 600 and 60 from 800 on, on an
   NVIDIA GeForce RTX 5070 Ti. In total, 28 034 vehicles.
 - `main_table.csv`: for every instance, the vehicles and the travel time of that solution, the time limit, the best of
-  the five seeds of Hiermann and Schiffer (2026) at the standard limit, and the best-known solution of the instance
-  repository in October 2026.
-- `best_known/`: the 38 solutions that improve the best-known solutions of the instance repository as of October 2026:
-  22 with fewer vehicles and 16 with the same fleet and less travel time. All but two were found from scratch within the
-  standard time limits (three of them by a CPU version of the method); on bar-n600-7 the travel time of the previous
-  best-known solution was lowered by moving zero-load blocks between routes, and poa-n1000-2 comes from a longer run.
+  the five seeds of Hiermann and Schiffer (2026) at the standard limit, the best-known solution of the instance
+  repository at commit `b2f0569` (9 October 2026), and the run, seed and hardware behind the solution.
+- `best_known/`: the 38 solutions that improve the best-known solutions of the instance repository at commit `b2f0569`
+  (9 October 2026): 22 with fewer vehicles and 16 with the same fleet and less travel time. The run of the main table
+  alone improves 32 instances (21 with fewer vehicles). The others come from two other runs of the GPU method and
+  three of a CPU version, all from scratch within the standard time limits, and from two solutions outside that
+  setting: bar-n600-7, whose previous best-known solution was improved by moving zero-load blocks between routes, and
+  poa-n1000-2, from a longer run. The improvements are relative to that snapshot of the repository.
 - `best_known.csv`: for each of these instances, the vehicles and the travel time of the solution and of the previous
-  best-known solution.
+  best-known solution, and its origin (`how`: R, the run of the main table; S, another run of the GPU method from
+  scratch; C, the CPU version from scratch; B, block moves; L, a longer run).
 
 ## Format
 
