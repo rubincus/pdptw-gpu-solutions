@@ -2,7 +2,7 @@
 
 Solutions of the 300 instances of the pickup and delivery problem with time windows (PDPTW) of Sartori and Buriol
 (2020), from 100 to 5000 locations ([instance repository](https://github.com/cssartori/pdptw-instances)), obtained
-with a metaheuristic that runs thousands of search trajectories on a single GPU. The method is described in a paper
+with a metaheuristic that runs up to 256 cooperating search trajectories on a single GPU. The method is described in a paper
 in preparation; the citation will be added here.
 
 The objective is hierarchical: first the number of vehicles, then the total travel time.
@@ -24,6 +24,20 @@ The objective is hierarchical: first the number of vehicles, then the total trav
 - `best_known.csv`: for each of these instances, the vehicles and the travel time of the solution and of the previous
   best-known solution, and its origin (`how`: R, the run of the main table; S, another run of the GPU method from
   scratch; C, the CPU version from scratch; B, block moves; L, a longer run).
+
+- `runs/` and `runs.csv`: the solutions of every other run reported in the paper, so that its comparisons can be
+  checked with the official validator. `runs.csv` gives, for every solution, the run, the method, the seed, the
+  hardware, the time limit, the vehicles and the travel time. All runs are at the standard time limits, from scratch:
+  - `equal_hardware/`: seeds 2 and 3 of the proposed method on the 25 instances with 600 locations (seed 1 is in
+    `main_table/`), and the public code of Hiermann and Schiffer (2026) run on the same workstation with seeds 1, 3
+    and 5 and 4 threads, on those 25 instances, on 16 large instances (two per size from 800 to 5000 locations, all
+    numbered 1) and on 6 small ones (two per size from 100 to 400, numbered 1);
+  - `cpu_condition/`: the CPU version of the proposed method (no GPU) on 24 instances (two per size, numbered 1),
+    with 4 worker processes on four performance cores and with 27 processes;
+  - `ablation/`: the variants of the analysis of components (guided ejection search alone, plus the fixed-fleet tabu
+    search, and the full method) with seeds 1 to 3 on 12 instances, one per size (the full method with seed 1 is in
+    `main_table/`);
+  - `seeds/`: seeds 2 and 3 of the proposed method on the 24 instances of the CPU condition.
 
 ## Format
 

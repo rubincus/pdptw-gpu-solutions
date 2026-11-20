@@ -1,0 +1,18 @@
+Instance name:	ber-n100-1
+Authors:	Hiermann & Schiffer (their code, run here)
+Date:	2026-11-13
+Reference:	github.com/tumBAIS/LargeScalePDPTW, run_hs.py hs4_sample_s1
+Solution
+Route 1 : 23 21 71 73 25 75 24 4 74 54
+Route 2 : 7 16 57 29 79 44 66 94 2 52
+Route 3 : 22 43 27 72 93 77 40 90
+Route 4 : 50 1 100 37 51 3 87 53
+Route 5 : 32 42 92 13 82 11 63 61
+Route 6 : 46 34 96 84 5 9 55 59
+Route 7 : 15 65 26 41 18 91 76 68
+Route 8 : 14 12 62 8 31 64 81 58
+Route 9 : 33 28 83 78 35 45 95 85
+Route 10 : 10 47 48 98 97 60
+Route 11 : 49 99 30 39 89 80
+Route 12 : 6 56 19 20 70 69
+Route 13 : 36 17 67 86 38 88
