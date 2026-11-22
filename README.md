@@ -20,7 +20,9 @@ The objective is hierarchical: first the number of vehicles, then the total trav
   alone improves 32 instances (21 with fewer vehicles). The others come from two other runs of the GPU method and
   three of a CPU version, all from scratch within the standard time limits, and from two solutions outside that
   setting: bar-n600-7, whose previous best-known solution was improved by moving zero-load blocks between routes, and
-  poa-n1000-2, from a longer run. The improvements are relative to that snapshot of the repository.
+  poa-n1000-2, from a longer run. The improvements are relative to that snapshot of the repository. Later, two runs of the analysis of the mechanisms lowered
+  poa-n2000-2 further, to 155 vehicles and travel time 16 059 and 16 043 (`runs/mechanisms/branch_fleet_seed4` and
+  `branch_fleet_seed5`).
 - `best_known.csv`: for each of these instances, the vehicles and the travel time of the solution and of the previous
   best-known solution, and its origin (`how`: R, the run of the main table; S, another run of the GPU method from
   scratch; C, the CPU version from scratch; B, block moves; L, a longer run).
