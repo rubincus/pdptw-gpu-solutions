@@ -37,7 +37,13 @@ The objective is hierarchical: first the number of vehicles, then the total trav
   - `ablation/`: the variants of the analysis of components (guided ejection search alone, plus the fixed-fleet tabu
     search, and the full method) with seeds 1 to 3 on 12 instances, one per size (the full method with seed 1 is in
     `main_table/`);
-  - `seeds/`: seeds 2 and 3 of the proposed method on the 24 instances of the CPU condition.
+  - `seeds/`: seeds 2 and 3 of the proposed method on the 24 instances of the CPU condition;
+  - `mechanisms/`: the analysis of the mechanisms on the 12 instances of the ablation: seeds 4, 5 and 6 of the
+    proposed method (`full_seed*`); from the solution each of these runs saved when its fleet search ended, three
+    branches that received the time the run had left (`branch_random`: random groups in the second stage;
+    `branch_cost`: the cost phase instead of the second stage; `branch_fleet`: more fixed-fleet attempts, then the
+    second stage), so that each branch solution also took the standard time limit in total; and the version with
+    independent trajectories, seeds 1 to 3 (`independent_seed*`).
 
 ## Format
 
