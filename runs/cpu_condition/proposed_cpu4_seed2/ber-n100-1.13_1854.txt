@@ -1,0 +1,18 @@
+Instance name:	ber-n100-1
+Authors:	CPU version of the GPU method
+Date:	2026-11-22
+Reference:	pdptw-gpu cpu_method
+Solution
+Route 1 : 21 71 6 10 56 60 40 90
+Route 2 : 49 99 5 39 89 55
+Route 3 : 33 28 29 83 78 16 79 2 52 66
+Route 4 : 32 43 27 93 77 82 38 20 70 88
+Route 5 : 48 98 25 75 24 4 54 74
+Route 6 : 46 7 57 96 13 11 63 61
+Route 7 : 23 73 47 19 97 69
+Route 8 : 14 12 62 8 31 64 81 58
+Route 9 : 15 26 65 41 18 91 76 68
+Route 10 : 17 67 35 45 95 85
+Route 11 : 50 1 100 37 51 3 87 53
+Route 12 : 34 84 22 30 9 72 80 59
+Route 13 : 42 92 44 36 94 86

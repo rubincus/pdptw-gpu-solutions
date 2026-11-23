@@ -35,7 +35,7 @@ The objective is hierarchical: first the number of vehicles, then the total trav
     and 5 and 4 threads, on those 25 instances, on 16 large instances (two per size from 800 to 5000 locations, all
     numbered 1) and on 6 small ones (two per size from 100 to 400, numbered 1);
   - `cpu_condition/`: the CPU version of the proposed method (no GPU) on 24 instances (two per size, numbered 1),
-    with 4 worker processes on four performance cores and with 27 processes;
+    with 4 worker processes on four performance cores (seeds 1, 2 and 3) and with 27 processes (seed 1);
   - `ablation/`: the variants of the analysis of components (guided ejection search alone, plus the fixed-fleet tabu
     search, and the full method) with seeds 1 to 3 on 12 instances, one per size (the full method with seed 1 is in
     `main_table/`);
